@@ -20,7 +20,7 @@ Los Angeles, CA, USA                  |    |
 |    |                                |    |
 |    |                                |    |
 |    |          sentry2               |    |
-|    |__________vps/6gb/3core_________|    |
+|    |__________vps/6gb/3 core________|    |
 |               Ashburn, VA, USA           |
 |                                          |
 |                                          |
