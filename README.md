@@ -1,9 +1,9 @@
 # chihuahua-validator
 
-This is an abstraction of our chihuahua-1 validator set up
+This is an abstraction of our chihuahua-1 node set up
 
 
-archive1/public rpc [proposed]
+<pre>archive1/public rpc [proposed]
 vps/8gb/4 core_____________________________
 TBD                                        |
                                            |
@@ -23,7 +23,6 @@ Los Angeles, CA, USA                  |    |
 |                   Ashburn, VA, USA       |
 |                                          |            
 |                                          |
-|                   sentry3.               |
+|                   sentry3                |
 |___________________vps/6gb/3 core_________|
-                    Ashburn, VA, USA                    
-
+                    Ashburn, VA, USA</pre>
