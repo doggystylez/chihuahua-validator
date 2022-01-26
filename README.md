@@ -13,7 +13,7 @@ TBD                                        |
 |                                     |    |
 |                                     |    |
 validator1                            |    |
-bare metal/16gb/4 core                chihuahua-1
+bare metal/16gb/4 core           chihuahua-1
 raid 1                                |    |
 Los Angeles, CA, USA                  |    |
 |    |                                |    |
