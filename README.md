@@ -1,15 +1,15 @@
 # chihuahua-validator
 
-This is an abstraction of our chihuahua-1 node set up
+Abstraction of [horcrux](https://github.com/strangelove-ventures/horcrux) infrastructure employed on mainnet
 <pre>
 
-                 validator
-           bare metal/64gb/12cpu
-          -          -          -
-         -           -           -
-        -            -            -
-  sentry1         sentry2         sentry3
-vps/8gb/4cpu    vps/8gb/4cpu    vps/8gb/4cpu
+  horcrux0       horcrux1       horcrux2
+vps/1gb/1cpu   vps/1gb/1cpu   vps/1gb/1cpu
+      -              -              -
+      -              -              -
+      -              -              -
+  sentry0         sentry1        sentry2
+vps/8gb/4cpu-    vps/8gb/4cpu   vps/8gb/4cpu
         -            -            -
          -           -           -
           -          -          -
