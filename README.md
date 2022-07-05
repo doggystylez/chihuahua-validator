@@ -3,19 +3,19 @@
 Abstraction of [horcrux](https://github.com/strangelove-ventures/horcrux) infrastructure employed on mainnet
 <pre>
 
-    signer0          signer1          signer2
-  vps/1gb/1cpu - - vps/1gb/1cpu - - vps/1gb/1cpu
-            -           -            -      
-           -            -             -     
-          -             -              -    
- validator0         validator1         validator2
-vps/8gb/4cpu       vps/8gb/4cpu       vps/8gb/4cpu
-          -             -              -
-           -            -             -
-            -           -            -
-             -          -           -
-               chihuahua-1 mainnet
-            
+
+signer0        signer1        signer2
+1gb/1cpu - - - 1gb/1cpu - - - 1gb/1cpu
+       -      -        -      -             
+        -    -          -    -
+         -  -            -  -
+       validator0      validator1
+        8gb/4cpu        8gb/4cpu
+               -        -
+                -      -
+                 -    -
+           chihuahua-1 mainnet
+           
             
 
   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⠶⠟⠛⠛⠛⠶⢦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -43,7 +43,7 @@ vps/8gb/4cpu       vps/8gb/4cpu       vps/8gb/4cpu
 ⠀⠀⠀⠀  ⠀⠀⣼⡫⠂⠀⠀⠀⣶⡿⣿⣿⣿⠁⠘⢿⣆⠙⣿⣿⣅⢺⡇⠛⢷⡄
 ⠀⠀⠀⠀  ⠀⢰⣿⠁⠀⠀⠀⣼⠏⠀⠈⢿⣿⠀⠀⢀⣿⠀⢸⣿⢿⣿⣷⢺⡆⣿
 ⠀⠀⠀⠀  ⠀⢸⡇⠀⠀⠀⢰⣿⠀⠀⠀⠈⣏⢻⡇⢷⣾⡇⢸⣿⠃⠘⢿⣼⣧⣿
-⠀⠀⠀⠀⠀ ⢸⣇⠀⠀⠀⢉⢿⣆⠀⠀⠀⣿⡟⠀⠀⢹⣷⣿⡏⠀⠀⢽⣿⣿⠏
+⠀⠀`⠀⠀⠀ ⢸⣇⠀⠀⠀⢉⢿⣆⠀⠀⠀⣿⡟⠀⠀⢹⣷⣿⡏⠀⠀⢽⣿⣿⠏
 ⠀⠀⠀⠀  ⠀⠀⢻⡆⠀⠀⠀⠸⢻⢿⣶⣶⣿⢻⡆⢀⣼⣿⠏⠀⠀⣠⣹⣿⠋⠀
 ⠀⠀⠀⠀  ⠀⠀⠀⠻⣷⣀⣀⠀⠈⠈⠘⣿⡇⡿⠃⣸⢸⣿⢀⣠⣦⡿⠛⠁⠀⠀
 ⠀⠀⠀⠀⠀⠀  ⠀⠀⠀⠙⠳⠶⣤⣴⣾⣿⣠⡇⠐⣇⣿⣿⠿⠛⠉⠀⠀⠀⠀⠀
